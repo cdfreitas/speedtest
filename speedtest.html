@@ -1,0 +1,41 @@
+<html>
+<head>
+<title> ADSL Statistics </title>
+<link rel="stylesheet" href="speedtest.css" type="text/css" />
+
+</head>
+
+<h1> ADSL Statistics </h1>
+<nav id="nav">	
+	<ul>		
+		<li>
+			<a href="javascript:create_graphs('d');"><span>1 Dia</span></a>
+		</li>
+		<li>
+			<a href="javascript:create_graphs('w');"><span>1 Semana</span></a>
+		</li>
+		<li>
+			<a href="javascript:create_graphs('m');"><span>1 M&ecircs</span></a>
+		</li>
+		<li>
+			<a href="javascript:create_graphs('y');"><span>1 Ano</span></a>
+		</li>
+	</ul>
+</nav> 
+
+
+<iframe id="frame" width="100%"  height = "90%"> </iframe>
+
+<script>
+var my_frame=document.getElementById("frame");
+
+
+
+function create_graphs(str) {
+var addr="./create_graphs.cgi?"+str;
+my_frame.src=addr;
+};
+
+</script>
+
+</html>
