@@ -1,5 +1,7 @@
 Speedtest
 =========
+Tests your ISP bandwidth (_using tespeed.py_), collects some modem statistcs and shows results graphically (_using RRDTool_).  
+Originally developed to use with Raspberry Pi, but works in almost all Linux ;-).   
 
 See more information in:  
 
