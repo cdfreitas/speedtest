@@ -19,7 +19,7 @@ MODEM_PASS=
 
 #Arrays (avoiding multidimensional arrays!!)
 
-#Generate graphics only for parameters which index is present in the list ARR_IDXS
+#Generate graphics only for parameters which index is present in the ARR_IDXS list
 ARR_IDXS="0 1 6 7 8 9"
 #Last array index
 ARR_LAST_IDX=13
